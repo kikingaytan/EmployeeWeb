@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mock.employee",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "employeeWeb",
+    "packageName": "com.mock.employee",
+    "packageFolder": "com/mock/employee",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDhlOThiY2VkMWViNDczYjQ5OTA3NmQ2NzZlZjk3MmUxNzdkZmQyZGFhOTQ5M2FhNTdiNWViODMyMjA3YzVmZjYyYWNiYjE3NGI0YWRjODRlYmE0MzJjZTFhNWQ2NGI2M2Y3YjAxOWY5YTM2NmRmNGQxOGJkYzA0NzVmYmRlY2U=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
