@@ -5,11 +5,11 @@
       "nativeLanguage": "en"
     },
     "jhipsterVersion": "5.7.0",
-    "applicationType": "microservice",
+    "applicationType": "monolith",
     "baseName": "employeeWeb",
     "packageName": "com.mock.employee",
     "packageFolder": "com/mock/employee",
-    "serverPort": "8081",
+    "serverPort": "8080",
     "authenticationType": "jwt",
     "cacheProvider": "ehcache",
     "enableHibernateCache": true,
@@ -22,18 +22,18 @@
     "serviceDiscoveryType": false,
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "MDhlOThiY2VkMWViNDczYjQ5OTA3NmQ2NzZlZjk3MmUxNzdkZmQyZGFhOTQ5M2FhNTdiNWViODMyMjA3YzVmZjYyYWNiYjE3NGI0YWRjODRlYmE0MzJjZTFhNWQ2NGI2M2Y3YjAxOWY5YTM2NmRmNGQxOGJkYzA0NzVmYmRlY2U=",
+    "jwtSecretKey": "NDlmY2U4OTBlNDQwOWZmMWU3NjA3ODExOGMxM2MxN2NjZDZkNjAyZmYxNWE0MGMyOTgzODA1MzU4OTAyZjliYmY1MjBlNGJiYzg4Y2NlMjlmMjJlODViMGNhMTMxODdlOWM1YWQwYmM2NzVhNjc1NWFhNjIwNjA4MDFlM2NiMTE=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
     "otherModules": [],
     "enableTranslation": true,
-    "clientPackageManager": "npm",
     "nativeLanguage": "en",
     "languages": [
       "en",
       "es"
-    ],
-    "skipClient": true,
-    "skipUserManagement": true
+    ]
   }
 }

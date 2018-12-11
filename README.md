@@ -1,10 +1,6 @@
 # employeeWeb
 This application was generated using JHipster 5.7.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.7.0](https://www.jhipster.tech/documentation-archive/v5.7.0).
 
-This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
-
-This application is configured for Service Discovery and Configuration with . On launch, it will refuse to start if it is not able to connect to .
-
 ## Development
 
 To start your application in the dev profile, simply run:
@@ -14,6 +10,19 @@ To start your application in the dev profile, simply run:
 
 For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
 
+### Using angular-cli
+
+You can also use [Angular CLI][] to generate some custom client code.
+
+For example, the following command:
+
+    ng generate component my-component
+
+will generate few files:
+
+    create src/main/webapp/app/my-component/my-component.component.html
+    create src/main/webapp/app/my-component/my-component.component.ts
+    update src/main/webapp/app/app.module.ts
 
 
 ## Building for production
@@ -80,7 +89,7 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 
 [JHipster Homepage and latest documentation]: https://www.jhipster.tech
 [JHipster 5.7.0 archive]: https://www.jhipster.tech/documentation-archive/v5.7.0
-[Doing microservices with JHipster]: https://www.jhipster.tech/documentation-archive/v5.7.0/microservices-architecture/
+
 [Using JHipster in development]: https://www.jhipster.tech/documentation-archive/v5.7.0/development/
 [Using Docker and Docker-Compose]: https://www.jhipster.tech/documentation-archive/v5.7.0/docker-compose
 [Using JHipster in production]: https://www.jhipster.tech/documentation-archive/v5.7.0/production/
