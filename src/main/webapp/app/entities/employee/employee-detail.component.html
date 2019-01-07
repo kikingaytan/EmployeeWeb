@@ -1,0 +1,59 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="employee">
+            <h2><span jhiTranslate="employeeWebApp.employee.detail.title">Employee</span> {{employee.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="employeeWebApp.employee.name">Name</span></dt>
+                <dd>
+                    <span>{{employee.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.lastName">Last Name</span></dt>
+                <dd>
+                    <span>{{employee.lastName}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.dob">Dob</span></dt>
+                <dd>
+                    <span>{{employee.dob}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.address">Address</span></dt>
+                <dd>
+                    <span>{{employee.address}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.address2">Address 2</span></dt>
+                <dd>
+                    <span>{{employee.address2}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.city">City</span></dt>
+                <dd>
+                    <span>{{employee.city}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.state">State</span></dt>
+                <dd>
+                    <span>{{employee.state}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.zipCode">Zip Code</span></dt>
+                <dd>
+                    <span>{{employee.zipCode}}</span>
+                </dd>
+                <dt><span jhiTranslate="employeeWebApp.employee.active">Active</span></dt>
+                <dd>
+                    <span>{{employee.active}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/employee', employee.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>
